@@ -315,6 +315,7 @@ Zendikar|ZEN|Zendikar|
 Zendikar Rising|ZNR|ZendikarRising|
 Zendikar Rising Commander|ZNC|ZendikarRisingCommander|
 Star Wars|SWS|StarWars|
+Heckscube|HCK|Heckscube|
 Happy Holidays|HHO|HappyHolidays|
 Warhammer 40,000 Commander|40K|Warhammer40000Commander|
 Champs and States|PCMP|ChampsAndStates|
