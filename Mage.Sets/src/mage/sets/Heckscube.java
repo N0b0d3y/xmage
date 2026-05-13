@@ -33,6 +33,8 @@ public final class Heckscube extends ExpansionSet {
         cards.add(new SetCardInfo("Arid Mesa Falcon", 10, Rarity.COMMON, mage.cards.a.AridMesaFalcon.class, RETRO_ART));
         cards.add(new SetCardInfo("Broken Clockwolf", 11, Rarity.COMMON, mage.cards.b.BrokenClockwolf.class, RETRO_ART));
         cards.add(new SetCardInfo("Brown Polar Bear", 12, Rarity.COMMON, mage.cards.b.BrownPolarBear.class, RETRO_ART));
+        cards.add(new SetCardInfo("Celestial Daystalker", 13, Rarity.COMMON, mage.cards.c.CelestialDaystalker.class, RETRO_ART));
+        cards.add(new SetCardInfo("EVIL Corrupt Court Official", 14, Rarity.COMMON, mage.cards.e.EvilCorruptCourtOfficial.class, RETRO_ART));
         cards.add(new SetCardInfo("Alaborealis Trooper", 19, Rarity.COMMON, mage.cards.a.AlaborealisTrooper.class, RETRO_ART));
     }
 }

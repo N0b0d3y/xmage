@@ -31,7 +31,6 @@ public class RomeoAndJulietEffect extends OneShotEffect {
         Permanent p1 = game.getPermanent(targets.get(0));
         Permanent p2 = game.getPermanent(targets.get(1));
 
-        // Validation: Different players
         if (p1 != null && p2 != null && !p1.getControllerId().equals(p2.getControllerId())) {
             p1.addInfo("RomeoAndJuliet", "If " + p2.getName() + " dies, this creature will take its own life.", game);
             p2.addInfo("RomeoAndJuliet", "If " + p1.getName() + " dies, this creature will take its own life.", game);

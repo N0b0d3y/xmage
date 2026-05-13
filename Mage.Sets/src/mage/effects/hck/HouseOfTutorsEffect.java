@@ -40,29 +40,24 @@ public class HouseOfTutorsEffect extends OneShotEffect {
 
         Cards searchedCards = new CardsImpl();
 
-        // 1. Search for Sorcery
         TargetCardInLibrary target1 = new TargetCardInLibrary(new FilterSorceryCard("a sorcery"));
         if (controller.searchLibrary(target1, source, game)) {
             searchedCards.add(target1.getFirstTarget());
         }
 
-        // 2. Search for Creature ("Summon")
         TargetCardInLibrary target2 = new TargetCardInLibrary(new FilterCreatureCard("a creature"));
         if (controller.searchLibrary(target2, source, game)) {
             searchedCards.add(target2.getFirstTarget());
         }
 
-        // 3. Search for any card
         TargetCardInLibrary target3 = new TargetCardInLibrary(new FilterCard("any card"));
         if (controller.searchLibrary(target3, source, game)) {
             searchedCards.add(target3.getFirstTarget());
         }
 
-        // Reveal and Shuffle
         controller.revealCards(source, searchedCards, game);
         controller.shuffleLibrary(source, game);
 
-        // 4. Opponent chooses two to put on the bottom
         if (searchedCards.size() > 0) {
             int toBottomCount = Math.min(searchedCards.size(), 2);
             TargetCard targetToBottom = new TargetCard(toBottomCount, toBottomCount, Zone.LIBRARY, new FilterCard("cards to put on bottom"));

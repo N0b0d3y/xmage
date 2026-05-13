@@ -18,7 +18,6 @@ public class RomeoAndJulietSuicideEffect extends OneShotEffect {
 
     @Override
     public boolean apply(Game game, Ability source) {
-        // Get the lover that is still alive
         Permanent survivor = game.getPermanent(getTargetPointer().getFirst(game, source));
         if (survivor != null) {
             game.informPlayers("A pair of star-crossed lovers take their life...");
