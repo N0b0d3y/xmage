@@ -921,7 +921,7 @@ public class GameEvent implements Serializable {
      *       for now, having the setter helps find all that do not provide an Ability source,
      *       so keeping it is worthwhile until a thoughtful cleanup.
      */
-    protected void setSourceId(UUID sourceId) {
+    public void setSourceId(UUID sourceId) {
         this.sourceId = sourceId;
     }
 
