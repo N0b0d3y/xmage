@@ -26,10 +26,6 @@ import mage.target.targetpointer.FixedTargets;
 import java.util.List;
 import java.util.UUID;
 
-/**
- *
- * @author North
- */
 public final class ChineseFingerTrap extends CardImpl {
 
     public ChineseFingerTrap(UUID ownerId, CardSetInfo setInfo) {
