@@ -58,7 +58,10 @@ class Horsemanship extends RestrictionEffect implements MageSingleton {
 
     @Override
     public boolean canBeBlocked(Permanent attacker, Permanent blocker, Ability source, Game game, boolean canUseChooseDialogs) {
-        return blocker.getAbilities().containsKey(HorsemanshipAbility.getInstance().getId());
+        if (blocker.getAbilities().containsKey(HorsemanshipAbility.getInstance().getId())) {
+            return true;
+        }
+        return game.getState().getContinuousEffects().asThough(blocker.getId(), mage.constants.AsThoughEffectType.BLOCK_HORSEMANSHIP, source, blocker.getControllerId(), game) != null;
     }
 
     @Override

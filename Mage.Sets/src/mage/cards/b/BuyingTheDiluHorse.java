@@ -21,8 +21,6 @@ public class BuyingTheDiluHorse extends CardImpl {
         this.getSpellAbility().addTarget(new TargetOpponentsCreaturePermanent());
         this.getSpellAbility().addEffect(new BuyingTheDiluHorseManaEffect());
         this.getSpellAbility().addEffect(new GainControlTargetEffect(Duration.EndOfGame));
-
-        this.getSpellAbility().addEffect(new DrawCardTargetControllerEffect(1));
     }
 
     private BuyingTheDiluHorse(final BuyingTheDiluHorse card) {

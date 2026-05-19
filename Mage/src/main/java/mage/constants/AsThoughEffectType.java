@@ -18,6 +18,7 @@ public enum AsThoughEffectType {
     ACTIVATE_HASTE(true, false),
     //
     BLOCK_TAPPED,
+    BLOCK_HORSEMANSHIP,
     BLOCK_SHADOW,
     BLOCK_DRAGON,
     BLOCK_LANDWALK,

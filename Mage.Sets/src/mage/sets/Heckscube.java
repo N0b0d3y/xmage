@@ -42,5 +42,9 @@ public final class Heckscube extends ExpansionSet {
         cards.add(new SetCardInfo("Pure Court Offical", 18, Rarity.COMMON, mage.cards.p.PureCourtOffical.class, RETRO_ART));
         cards.add(new SetCardInfo("Alaborealis Trooper", 19, Rarity.COMMON, mage.cards.a.AlaborealisTrooper.class, RETRO_ART));
         cards.add(new SetCardInfo("Buying the Dilu Horse", 20, Rarity.COMMON, mage.cards.b.BuyingTheDiluHorse.class, RETRO_ART));
+        //TODO: Card needs to be tested in multiplayer, bot gets stuck when a creature with horsemanship attacks while this is in play
+        cards.add(new SetCardInfo("Unmanned Horse", 21, Rarity.COMMON, mage.cards.u.UnmannedHorse.class, RETRO_ART));
+        cards.add(new SetCardInfo("Returning 100,000 Arrows", 22, Rarity.COMMON, mage.cards.r.Returning100000Arrows.class, RETRO_ART));
+        cards.add(new SetCardInfo("Domesticated Shadow", 23, Rarity.COMMON, mage.cards.d.DomesticatedShadow.class, RETRO_ART));
     }
 }
