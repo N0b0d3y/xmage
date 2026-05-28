@@ -12,7 +12,7 @@ import java.util.UUID;
 
 public class DomesticatedShadow extends CardImpl {
     public DomesticatedShadow(UUID ownerId, CardSetInfo setInfo) {
-        super(ownerId,setInfo,new CardType[]{CardType.CREATURE},"{4}{R}");
+        super(ownerId,setInfo,new CardType[]{CardType.CREATURE},"{2}{W}");
         this.subtype.add(SubType.DAYSTALKER);
         this.power = new MageInt(2);
         this.toughness = new MageInt(1);

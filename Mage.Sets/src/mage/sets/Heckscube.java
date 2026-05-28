@@ -46,5 +46,12 @@ public final class Heckscube extends ExpansionSet {
         cards.add(new SetCardInfo("Unmanned Horse", 21, Rarity.COMMON, mage.cards.u.UnmannedHorse.class, RETRO_ART));
         cards.add(new SetCardInfo("Returning 100,000 Arrows", 22, Rarity.COMMON, mage.cards.r.Returning100000Arrows.class, RETRO_ART));
         cards.add(new SetCardInfo("Domesticated Shadow", 23, Rarity.COMMON, mage.cards.d.DomesticatedShadow.class, RETRO_ART));
+        //TODO: This is a problem for future me. Fuck you future me.
+        //cards.add(new SetCardInfo("Oversold Fletcher", 24, Rarity.COMMON, mage.cards.o.OversoldFletcher.class, RETRO_ART));
+        cards.add(new SetCardInfo("Reclaiming 1 Arrow", 25, Rarity.COMMON, mage.cards.r.Reclaiming1Arrow.class, RETRO_ART));
+        //TODO: This is a problem for future me. Fuck you future me.
+        //cards.add(new SetCardInfo("DaystalkerEngine", 26, Rarity.COMMON, mage.cards.d.DaystalkerEngine.class, RETRO_ART));
+        cards.add(new SetCardInfo("Every Portal Set had Armageddon in it BtW", 27, Rarity.COMMON, mage.cards.e.EveryPortalSetHadArmageddonInItBtw.class, RETRO_ART));
+        cards.add(new SetCardInfo("Sundialwolf", 28, Rarity.COMMON, mage.cards.s.Sundialwolf.class, RETRO_ART));
     }
 }
